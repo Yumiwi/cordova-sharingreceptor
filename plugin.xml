@@ -25,7 +25,8 @@
             <intent-filter>
                 <action android:name="android.intent.action.SEND" />
                 <category android:name="android.intent.category.DEFAULT" />
-                <data android:mimeType="*/*" />
+                <data android:mimeType="image/*" />
+                <data android:mimeType="video/mp4" />
             </intent-filter>
         </config-file>
         <source-file src="src/android/SharingReceptor.java" target-dir="src/org/apache/cordova/sharingreceptor" />
